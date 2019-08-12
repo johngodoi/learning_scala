@@ -1,6 +1,17 @@
 package com.johngodoi.scala.hackerrank.ten.days.of.statistics
 object MeanMedianMode {
 
+  /**
+    * input
+    * 10
+    * 64630 11735 14216 99233 14470 4978 73429 38120 51135 67060
+    * output
+    * 43900,6
+    * 44627,5
+    * 4978
+    *
+    * @param args
+    */
   def main(args: Array[String]): Unit = {
     val qtt = scala.io.StdIn.readInt()
     var array = Array[Int]()

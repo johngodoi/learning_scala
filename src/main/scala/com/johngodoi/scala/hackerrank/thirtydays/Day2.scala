@@ -1,6 +1,8 @@
 package com.johngodoi.scala.hackerrank.thirtydays
 
-object Day2 {
+import com.johngodoi.scala.hackerrank.thirdparty.TomLous.Solution
+
+object Day2 extends Solution {
 
     // Complete the solve function below.
     def solve(meal_cost: Double, tip_percent: Int, tax_percent: Int) {

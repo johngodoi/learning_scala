@@ -4,7 +4,7 @@ package com.johngodoi.scala.hackerrank.thirtydays
 object Day6 {
 
   def main(args: Array[String]) {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named com.johngodoi.java.bairesdev.Solution
 */
     var list = List[String]()
     var n = scala.io.StdIn.readInt()

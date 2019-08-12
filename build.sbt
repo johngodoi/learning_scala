@@ -4,4 +4,5 @@ version := "0.1"
 
 scalaVersion := "2.12.8"
 
-libraryDependencies += "org.scalatest" % "scalatest_2.12" % "3.0.8" % "test"
+libraryDependencies += "org.scalatest" % "scalatest_2.12" % "3.0.8" % "test"// https://mvnrepository.com/artifact/com.google.code.gson/gson
+libraryDependencies += "com.google.code.gson" % "gson" % "1.7.1"
