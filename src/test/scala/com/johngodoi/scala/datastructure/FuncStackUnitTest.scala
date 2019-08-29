@@ -4,7 +4,7 @@ import com.johngodoi.scala.datastructures.{FuncStack, FuncStackEmpty, FuncStackN
 import org.scalatest.{FlatSpec, Matchers}
 
 
-class StackUnitTest extends FlatSpec with Matchers {
+class FuncStackUnitTest extends FlatSpec with Matchers {
 
   "Create an empty Stack" should "doesn't fill with anything" in {
     val stack = FuncStackEmpty()

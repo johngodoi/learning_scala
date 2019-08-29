@@ -7,6 +7,7 @@ trait FuncStack[F] {
 }
 
 case class FuncStackEmpty[F]() extends FuncStack[F]{
+  val size = 0
   override def isEmpty:Boolean = true
   override def push(element: F): FuncStack[F] = FuncStackNonEmpty(this, element, 1)
   override def pop(): (FuncStack[F], Option[F]) = (this, None)
